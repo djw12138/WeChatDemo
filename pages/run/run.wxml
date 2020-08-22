@@ -1,0 +1,7 @@
+<view class="head" style="flex-direction:row;">
+    <button bindtap="openLocation">打开位置</button>
+    <button bindtap="starRun">开始跑步</button>
+    <button bindtap="stopRun">暂停跑步</button>
+    <text>里程数：{{mileage}}km</text>
+    <text>时间：{{timeInterval}}</text>
+</view>
